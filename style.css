@@ -1,0 +1,78 @@
+/* body,ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(39, 7, 182);
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: flex;
+}
+
+.navbar a{
+    display: flex;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.navbar a:hover{
+    background-color: aqua;
+    transform: scale(1.2);
+} */
+
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the navigation bar */
+  .navbar {
+    background-color: rgb(194, 227, 228); /* Dark blue background */
+    overflow: hidden; /* Ensure no overflow */
+    padding: 10px; /* Padding inside the navbar */
+    display: flex; /* Flexbox layout */
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  /* Style for the unordered list inside the navbar */
+  .navbar ul {
+    list-style-type: none; /* Remove bullets from list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange list items horizontally */
+  }
+  
+  /* Style for each list item */
+  .navbar li {
+    margin-left: 15px; /* Space between list items */
+  }
+  
+  /* Style for links inside the navbar */
+  .navbar a {
+    display: block; /* Block-level to apply padding properly */
+    padding: 10px 15px; /* Padding inside each link */
+    text-decoration: none; /* Remove underline */
+    color: black; /* Link text color */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
+  }
+  
+  /* Hover effects for links */
+  .navbar a:hover {
+    background-color: rgb(124, 143, 143); /* Background color on hover */
+    transform: scale(1.2); /* Slightly enlarge the link on hover */
+  }
